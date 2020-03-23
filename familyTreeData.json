@@ -1,0 +1,43 @@
+{
+  "name": "Top Level",
+  "children": [
+    {"name": "اشرف",
+      "children": [
+        { "name": "Son of A",
+          "children": [
+            {"name": "third child"}
+          ]
+        },
+        { "name": "Daughter of A" ,
+          "children": [
+            { "name": "Son of A",
+              "children": [
+                {"name": "third child"}
+              ]
+            },
+            { "name": "Daughter of A" },
+            { "name": "Daughter of A" },
+            { "name": "Daughter of A" },
+            { "name": "Daughter of A" }
+          ]
+        },
+        { "name": "Daughter of A" },
+        { "name": "Daughter of A" },
+        { "name": "Daughter of A" }
+      ]
+    },
+    { "name": "Level 2: B",
+      "children": [
+        { "name": "Son of A",
+          "children": [
+            {"name": "third child"}
+          ]
+        },
+        { "name": "Daughter of A" },
+        { "name": "Daughter of A" },
+        { "name": "Daughter of A" },
+        { "name": "Daughter of A" }
+      ]
+    }
+  ]
+}
